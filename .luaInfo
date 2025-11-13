@@ -1,0 +1,26 @@
+local InfosTab = {
+	InfoTab = Window:AddTab('Update Log'),
+}
+
+local UpdateGroup = InfosTab.InfoTab:AddLeftGroupbox('Update Log')
+local GamesGroup = InfosTab.InfoTab:AddRightGroupbox('Games')
+
+-- update log
+UpdateGroup:AddLabel('Doors:')
+UpdateGroup:AddLabel('Alot Of New Stuff')
+
+UpdateGroup:AddLabel('Updated The Ui Lib For Some Stuff')
+
+-- working: 🟢
+-- Old Patch 🟡
+-- Risky 🟠
+-- beta tester 🔵
+-- In Development 🟣
+-- not working 🔴
+-- disscontinued ⚫
+GamesGroup:AddLabel('Loader: 🟢')
+GamesGroup:AddLabel('Universal: 🟢')
+GamesGroup:AddLabel('Doors: 🔵 + 🟣')
+GamesGroup:AddLabel('Ink Game: 🟠')
+GamesGroup:AddLabel('Decaying Winter: 🟡 ')
+GamesGroup:AddLabel('Blox Fruits: ⚫')
