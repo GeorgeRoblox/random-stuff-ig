@@ -12,6 +12,7 @@ UpdateGroup:AddLabel('Updated The Ui Lib For Some Stuff')
 -- In Development 🟣
 -- not working 🔴
 -- disscontinued ⚫
+GamesGroup:AddLabel('UiLib: 🟢')
 GamesGroup:AddLabel('Loader: 🟢')
 GamesGroup:AddLabel('Universal: 🟢')
 GamesGroup:AddLabel('Doors: 🔵 + 🟣')
