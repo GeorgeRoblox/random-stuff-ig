@@ -1,9 +1,3 @@
-local InfosTab = {
-	InfoTab = Window:AddTab('Update Log'),
-}
-
-local UpdateGroup = InfosTab.InfoTab:AddLeftGroupbox('Update Log')
-local GamesGroup = InfosTab.InfoTab:AddRightGroupbox('Games')
 
 -- update log
 UpdateGroup:AddLabel('Doors:')
