@@ -1,3 +1,7 @@
+local InfosTab = {
+	InfoTab = Window:AddTab('Update Log'),
+}
+
 local UpdateGroup = InfosTab.InfoTab:AddLeftGroupbox('Update Log')
 local GamesGroup = InfosTab.InfoTab:AddRightGroupbox('Games')
 
@@ -14,7 +18,7 @@ UpdateGroup:AddLabel('Updated The Ui Lib For Some Stuff')
 -- In Development 🟣
 -- not working 🔴
 -- disscontinued ⚫
-GamesGroup:AddLabel('UiLib: 🟢') MenuSettings:AddLabel('Toggle Keybind')
+GamesGroup:AddLabel('UiLib: 🟢')
 GamesGroup:AddLabel('Loader: 🟢')
 GamesGroup:AddLabel('Universal: 🟢')
 GamesGroup:AddLabel('Doors: 🔵 + 🟣')
