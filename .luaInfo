@@ -1,7 +1,7 @@
 
 -- update log
 UpdateGroup:AddLabel('Doors:')
-UpdateGroup:AddLabel('Alot Of New Stuff')
+UpdateGroup:AddLabel('Fixed Alot Of Stuff')
 
 UpdateGroup:AddLabel('Updated The Ui Lib For Some Stuff')
 
